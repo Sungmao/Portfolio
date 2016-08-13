@@ -1,0 +1,499 @@
+header{
+	background-color: white;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	overflow: auto;
+	height: 20%;
+
+}
+
+body {
+	/*background-color: #cccccc;*/
+	background-image: url("../images/hexellence.png");
+	padding-top: 30px;
+	min-height: 100%;
+	/*display: flex;
+	flex-direction: column;*/
+	}
+
+.myname {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 32px;
+	color: white;
+	background: #4aaaa5;
+	margin: 0px 100px 0px 100px;
+	padding: 10px 33px 10px 33px;
+	width: 200px;
+	height: 30px;
+	float: left;
+	/*
+	position:relative;
+	bottom: -30px;
+	*/
+}
+
+.nav_link {
+	float: right;
+	margin: 0px 0px 0px 0px;
+	font-size: 15px;
+	/*color: #cccccc;*/
+	/*padding-top: 0px;*/
+	background-color: white;
+	/*text-decoration: none;*/
+	/*width: 20%;
+	height: 30px;*/
+	position:relative;
+	top:20px;
+	right: 120px;
+	
+}
+
+.logolink_about {
+	/*border-right:1px solid #cccccc;*/
+	padding-right: 10px;
+	text-decoration: none;
+	color: #cccccc;
+}
+
+.logolink_portfolio {
+	/*border-right:1px solid #cccccc;*/
+	padding-right: 10px;
+	padding-left: 10px;
+	text-decoration: none;
+	color: #cccccc;
+}
+	
+.logolink_contact {
+	padding-left: 10px;
+	text-decoration: none;
+	color: #cccccc;
+}
+
+.aboutme{
+	box-sizing: border-box;
+	width: 50%;
+	border: 1px #cccccc;
+	float: left;
+	background: white;
+	margin: 0px 0px 40px 100px;
+	padding: 20px 33px 20px 33px;
+}
+
+.aboutme_pic{
+	float: left;
+	width: 150px;
+	height: 180px;
+	margin: 10px 20px 20px 0px;
+}
+
+.aboutme_head{
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 32px;
+	border-bottom:3px solid #cccccc;
+	padding-top: 0px;
+	padding-bottom: 20px;
+	color: #4aaaa5;
+}
+
+.p_text{
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+	line-height: 200%;
+	margin-top: 10px;
+}
+
+.contact_me_text{
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 20px;
+	color: #4aaaa5;
+	border-bottom:2px solid #cccccc;
+	text-align: center;
+	padding: 10px;
+}
+
+.logo{
+	height: 50px;
+	width: 50px;
+	padding: 10px 5px 5px 5px;
+
+}
+
+.contact_me{
+	box-sizing: border-box;
+	float: left;
+	width: 30%;
+	background: white;
+	border: solid 1px #cccccc;
+	padding: 20px 30px 20px 30px;
+	position:relative;
+	left:20px;
+	/*top:0px;*/
+}
+
+footer{
+	background: #666666;
+	clear: both;
+	/*position: relative;
+	bottom: 0px;
+	width: 100%;*/
+}
+
+.footer_text {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 12px;
+	color: #777777;
+	text-align: center;
+	padding: 40px;
+}
+
+.main_area{
+	box-sizing: border-box;
+	width: 100%;
+	/*height: 100%;*/
+	/*background-color: #cccccc;
+	background-image: url(hexellence.png);*/
+	/*position:relative;
+	left:20px;*/
+	overflow: scroll;
+	padding-top: 30px;
+	border-bottom:5px solid #4aaaa5 ;
+	margin-top: 10px;
+}
+
+
+form{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.message_box{
+	height: 200px;
+	width: 100%;
+}
+
+.name_box {
+	width: 100%;
+	margin-bottom:10px; 
+}
+
+.email_box{
+	width: 100%;
+	margin-bottom:10px; 
+}
+
+.contact_head{
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 32px;
+	border-bottom:3px solid #cccccc;
+	padding-top: 0px;
+	padding-bottom: 20px;
+	color: #4aaaa5;
+}
+
+.contact{
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;/Users/Vivi/Desktop/Portfolio/assignment1/assets/css/style.css
+	color: #777777;
+	box-sizing: border-box;
+	width: 50%;
+	border: 1px #cccccc;
+	float: left;
+	background: white;
+	margin: 0px 0px 40px 100px;
+	padding: 20px 33px 20px 33px;
+}	
+
+.portfolio_head{
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 32px;
+	border-bottom:3px solid #cccccc;
+	padding-top: 0px;
+	padding-bottom: 20px;
+	color: #4aaaa5;
+}
+
+.portfolio{
+	box-sizing: border-box;
+	width: 65%;
+	border: 1px #cccccc;
+	float: left;
+	background: white;
+	margin: 0px 0px 40px 20px;
+	padding: 20px 33px 20px 33px;
+}
+
+
+.work {
+	width: 280px;
+	overflow: auto;
+	position: relative;
+	float: left;
+	margin: 20px 0 25px;
+	}
+
+.work:nth-child(even) {
+	margin-right: 10px;
+	}
+
+.work img {
+	width: 80%;
+	border: 0 none;
+	opacity: .8;
+	margin-left: 10px;
+	}
+
+
+.work h3 {
+	border-bottom: 0;
+	background: #4aaaa5;
+	color: #fff;
+	text-align: center;
+	position: absolute;
+	padding: 15px;
+	width: 69%;
+	bottom: 20px;
+	line-height: 30px;
+	margin-bottom: 0;
+	font-weight: 300;
+	margin-left: 10px;
+
+	}	
+
+
+	input[type=submit] {
+	background: #4aaaa5;
+	width: 50%;
+	border: 0 none;
+	color: #fff;
+	font-size: 18px;
+	padding: 10px 30px;
+	cursor: pointer;
+}
+
+
+
+@media screen and (max-width: 768px) {
+
+	
+
+.myname {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 32px;
+	color: white;
+	background: #4aaaa5;
+	margin: 0px 20px 0px 30px;
+	padding: 25px 33px 25px 33px;
+	width: 200px;
+	height: 30px;
+	float: left;
+	/*
+	position:relative;
+	bottom: -30px;
+	*/
+	}
+
+	.aboutme_pic{
+	float: left;
+	width: 50%;
+	height: 250px;
+	margin: 10px 20px 20px 0px;
+	}
+
+
+.nav_link {
+	float: right;
+	margin: 0px 0px 0px 0px;
+	font-size: 15px;
+	/*color: #cccccc;*/
+	/*padding-top: 0px;*/
+	background-color: white;
+	/*text-decoration: none;*/
+	/*width: 20%;
+	height: 30px;*/
+	position:relative;
+	top:20px;
+	right: 20px;
+	}
+
+	.aboutme{
+	box-sizing: border-box;
+	width: 90%;
+	border: 1px #cccccc;
+	background: white;
+	margin: 0px 30px 40px 30px;
+	padding: 20px 33px 20px 33px;
+	}
+
+	
+	.contact_me{
+	box-sizing: border-box;
+	/*float: left;
+	*/
+	width: 95%;
+	background: white;
+	border: solid 1px #cccccc;
+	margin: 0px 0px 40px 7px;
+	padding: 20px 33px 20px 33px;
+	/*position:relative;
+	left:20px;
+	*/
+	/*top:0px;*/
+	}
+
+	.contact_me_text{
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 20px;
+	color: #4aaaa5;
+	border-bottom:2px solid #cccccc;
+	text-align: left;
+	padding: 10px;
+	}
+
+	
+
+	body {
+	/*background-color: #cccccc;*/
+	background-image: url("../images/hexellence.png");
+	padding-top: 0px;
+	min-height: 100%;
+	/*display: flex;
+	flex-direction: column;*/
+	}
+
+	.contact{
+		width: 95%;
+		margin-left: 30px;
+		margin-right: 10px;
+	}
+
+	.portfolio{
+	box-sizing: border-box;
+	width: 95%;
+	border: 1px #cccccc;
+	float: left;
+	background: white;
+	margin: 0px 0px 40px 30px;
+	padding: 20px 33px 20px 33px;
+	}
+
+	.work {
+	width: 45%;
+	overflow: auto;
+	position: relative;
+	float: left;
+	margin: 20px 0 25px;
+	}
+
+	
+	
+}
+
+
+@media screen and (max-width: 640px) {
+
+
+	.myname {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 32px;
+	color: white;
+	background: #4aaaa5;
+	margin: 0px 0px 0px 0px;
+	padding: 30px 33px 30px 33px;
+	width: 100%;
+	height: 30px;
+	text-align: center;
+	/*float: left;*/
+	/*
+	position:relative;
+	bottom: -30px;
+	*/
+	}
+
+	header{
+	background-color: white;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	height: 150px;
+	/*overflow: auto;
+	height: 100%;
+	*/
+
+	}
+
+	
+
+	.nav_link {
+	/*float: right;*/
+	margin: 0px 0px 0px 0px;
+	font-size: 20px;
+	width: 100%;
+	height: 30px;
+	text-align: center;
+	/*color: #cccccc;*/
+	/*padding-top: 0px;*/
+	background-color: white;
+	/*text-decoration: none;*/
+	/*width: 20%;
+	height: 30px;*/
+	/*position:relative;
+	top:20px;
+	right: 20px;*/
+	}
+
+	.aboutme_pic{
+	float: left;
+	width: 500px;
+	height: 550px;
+	margin: 10px 20px 20px 0px;
+	}
+
+	.contact{
+		width: 95%;
+		margin-left: 15px;
+		margin-right: 10px;
+	}
+
+	.contact_me{
+	box-sizing: border-box;
+	/*float: left;
+	*/
+	width: 95%;
+	background: white;
+	border: solid 1px #cccccc;
+	margin: 0px 0px 40px -5px;
+	padding: 20px 33px 20px 33px;
+	/*position:relative;
+	left:20px;
+
+	*/
+	/*top:0px;*/
+	}
+
+	.portfolio{
+	box-sizing: border-box;
+	width: 95%;
+	border: 1px #cccccc;
+	float: left;
+	background: white;
+	margin: 0px 10px 40px 20px;
+	padding: 20px 33px 20px 33px;
+	}
+
+	.work {
+	width: 100%;
+	height: 400px;
+	margin-left: -10px;
+
+	/*overflow: auto;*/
+	/*position: relative;*/
+	/*float: left;*/
+	/*margin: 20px 0 20px;*/
+	}
+
+
+
+}
+
+
+
+
+
